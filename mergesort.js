@@ -23,14 +23,16 @@ function merge(array1, array2){
 }
 
 function mergeSort(array) {
-
+  let result=[]
   let count=array.length
   while(count>1){
     let oldarr1=mergeSort(split(array)[0])
+    console.log(oldarr1)
     let oldarr2=mergeSort(split(array)[1])
-    count/2
-    mergeSort(merge(oldarr1,oldarr2))
+    // count/2
+    result=mergeSort(merge(...oldarr1,...oldarr2))
   }
-  return 
+  console.log(result)
+  return result
 
 }

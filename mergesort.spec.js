@@ -11,3 +11,11 @@ describe('Merge function', function(){
     // test the merging algorithm
   });
 });
+
+describe('MergeSort function', function(){
+  it('is able to merge two sorted arrays into one sorted array', function(){
+    expect( mergeSort([3, 5,4, 7]) ).toEqual( [3, 4, 5, 7] );
+    // test the merging algorithm
+  });
+});
+
