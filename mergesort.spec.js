@@ -7,7 +7,7 @@ describe('Split Array function', function() {
 
 describe('Merge function', function(){
   it('is able to merge two sorted arrays into one sorted array', function(){
-    expect( merge([3, 5] [4, 7, 9]) ).toEqual( [[3, 4, 5, 7, 9]] );
+    expect( merge([3, 5] ,[4, 7]) ).toEqual( [3, 4, 5, 7] );
     // test the merging algorithm
   });
 });
